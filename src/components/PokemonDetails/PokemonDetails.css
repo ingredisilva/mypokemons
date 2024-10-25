@@ -1,0 +1,33 @@
+.pokemon-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-image {
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+}
+
+.stat-item {
+  margin-bottom: 15px;
+}
+
+.stat-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 5px;
+}
+
+.stat-fill {
+  height: 100%;
+  background-color: var(--color-primary-dark);
+  transition: width 0.5s ease-in-out;
+}

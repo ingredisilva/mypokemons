@@ -1,0 +1,30 @@
+.custom-button {
+  border: none;
+  border-radius: 50px;
+  padding: 0.3rem 1.5rem;
+  background-color: var(--color-primary-dark);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: capitalize;
+  max-width: 240px;
+}
+
+.custom-button:hover {
+  background-color: var(--primary-yellow);
+  color: white;
+}
+
+button {
+  padding: var(--spacing-md);
+  color: var(--color-text-light);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--color-success);
+}

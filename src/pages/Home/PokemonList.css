@@ -1,0 +1,137 @@
+.home-items {
+  /*   height: 100vh;
+ */
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
+  height: 100vh;
+}
+.pokemon-details {
+  text-align: center;
+}
+
+.pokemon-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.loadmore {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 30px;
+}
+.poke-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--color-primary-dark);
+  border-radius: 8px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.pokemon-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  overflow-x: auto;
+}
+
+.pokemon-buttons::-webkit-scrollbar {
+  height: 8px;
+}
+
+.pokemon-buttons::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-dark);
+  border-radius: 10px;
+}
+
+.pokemon-buttons button {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pokemon-buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pokemon-buttons button:active {
+  transform: scale(1);
+}
+
+.search-bar {
+  margin: 16px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid var(--color-primary-dark);
+  border-radius: 20px;
+}
+
+.type-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.loadmore {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pokemon-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.type-button {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.type-button.selected {
+  background-color: var(--primary-yellow);
+  color: #fff;
+  font-weight: bold;
+}
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.not-found img {
+  width: 150px;
+}
