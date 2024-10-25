@@ -15,3 +15,13 @@
   padding: 20px;
   background-color: var(--color-primary-light);
 }
+
+.login-image-section {
+  display: visible;
+}
+
+@media (max-width: 768px) {
+  .login-image-section {
+    display: none;
+  }
+}

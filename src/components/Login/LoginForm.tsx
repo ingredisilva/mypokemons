@@ -43,7 +43,10 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin, errorMessage }) => {
         />
       </div>
       {/*       {errorMessage && <p className="error">{errorMessage}</p>}
- */}      <Button type="submit" label="Login" />
+ */}
+      <div className='button-container'>
+        <Button type="submit" label="Login" />
+      </div>
     </form>
   );
 };
