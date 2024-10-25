@@ -1,0 +1,18 @@
+.favorites-list {
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+.favorite-pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.favorites-list h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: var(--color-primary-dark);
+}
