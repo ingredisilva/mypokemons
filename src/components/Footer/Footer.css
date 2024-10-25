@@ -1,0 +1,16 @@
+.layout-footer {
+  background-color: var(--color-primary-dark);
+  text-align: center;
+  padding: var(--spacing-md);
+  color: var(--color-text-light);
+}
+
+.layout-footer nav a {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.layout-footer nav a:hover {
+  text-decoration: underline;
+}
