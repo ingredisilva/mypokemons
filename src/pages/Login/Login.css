@@ -1,0 +1,17 @@
+.login-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.login-logo {
+  width: 200px;
+}
+
+.login-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-primary-light);
+}

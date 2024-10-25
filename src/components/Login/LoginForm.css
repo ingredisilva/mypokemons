@@ -1,0 +1,49 @@
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+}
+
+/* .form-group {
+  margin-bottom: var(--spacing-md);
+} */
+.login-image-section {
+  /*   background-image: url("../assets/pokomon-bg.jpg");
+ */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+input {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--color-neutral-light);
+  border-radius: var(--border-radius);
+}
+
+.error {
+  color: var(--color-error);
+  margin-bottom: var(--spacing-md);
+}
+.login-page {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
