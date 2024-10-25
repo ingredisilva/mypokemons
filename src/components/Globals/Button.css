@@ -8,7 +8,8 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-transform: capitalize;
-  max-width: 240px;
+  /*  max-width: 240px; */
+  width: 100%;
 }
 
 .custom-button:hover {
